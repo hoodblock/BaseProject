@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>item0</key>
+	<dict>
+		<key>className</key>
+		<string>THOQuoteMainViewController</string>
+		<key>titleName</key>
+		<string>行情</string>
+		<key>description</key>
+		<string>行情模块主类</string>
+	</dict>
+	<key>item1</key>
+	<dict>
+		<key>className</key>
+		<string>THOQuoteMainViewController</string>
+		<key>titleName</key>
+		<string>行情</string>
+		<key>description</key>
+		<string>行情模块主类</string>
+	</dict>
+	<key>item2</key>
+	<dict>
+		<key>className</key>
+		<string>THONewsMainViewController</string>
+		<key>titleName</key>
+		<string>资讯</string>
+		<key>description</key>
+		<string>资讯模块主类</string>
+	</dict>
+	<key>item3</key>
+	<dict>
+		<key>className</key>
+		<string>THOIMMainViewController</string>
+		<key>titleName</key>
+		<string>社交</string>
+		<key>description</key>
+		<string>社交模块主类</string>
+	</dict>
+	<key>item4</key>
+	<dict>
+		<key>className</key>
+		<string>THOMineMainViewController</string>
+		<key>titleName</key>
+		<string>我的</string>
+		<key>description</key>
+		<string>我的模块主类</string>
+	</dict>
+</dict>
+</plist>

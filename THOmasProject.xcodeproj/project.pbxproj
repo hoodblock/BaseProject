@@ -1,0 +1,899 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40390753437C1991C00A2E51 /* libPods-THOmasProjectTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A2E109F5DB1D83FA1540FE1A /* libPods-THOmasProjectTests.a */; };
+		733DB3EF206C8DEBA1041303 /* libPods-THOmasProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 362CA725581948C2E9E7B932 /* libPods-THOmasProject.a */; };
+		E434054827413D9A00B7E9A6 /* THOBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E434054727413D9A00B7E9A6 /* THOBaseViewController.m */; };
+		E43819BE2740D794008BB35D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E43819BD2740D794008BB35D /* AppDelegate.m */; };
+		E43819C42740D794008BB35D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E43819C32740D794008BB35D /* ViewController.m */; };
+		E43819C92740D795008BB35D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E43819C82740D795008BB35D /* Assets.xcassets */; };
+		E43819CC2740D795008BB35D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E43819CA2740D795008BB35D /* LaunchScreen.storyboard */; };
+		E43819CF2740D795008BB35D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E43819CE2740D795008BB35D /* main.m */; };
+		E43819D92740D796008BB35D /* THOmasProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E43819D82740D796008BB35D /* THOmasProjectTests.m */; };
+		E43819E32740D796008BB35D /* THOmasProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E43819E22740D796008BB35D /* THOmasProjectUITests.m */; };
+		E43819E52740D796008BB35D /* THOmasProjectUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E43819E42740D796008BB35D /* THOmasProjectUITestsLaunchTests.m */; };
+		E43819F32740D90B008BB35D /* THOMainViewControlerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E43819F22740D90B008BB35D /* THOMainViewControlerViewController.m */; };
+		E43819FC2740DC06008BB35D /* THOQuoteMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E43819FB2740DC06008BB35D /* THOQuoteMainViewController.m */; };
+		E43819FF2740DC29008BB35D /* THONewsMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E43819FE2740DC29008BB35D /* THONewsMainViewController.m */; };
+		E4381A022740DC40008BB35D /* THOIMMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4381A012740DC40008BB35D /* THOIMMainViewController.m */; };
+		E4381A052740E2BE008BB35D /* UIView+THOUIViewCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = E4381A042740E2BE008BB35D /* UIView+THOUIViewCategory.m */; };
+		E4381A082740E2EA008BB35D /* UIColor+THOUIColorCatrgory.m in Sources */ = {isa = PBXBuildFile; fileRef = E4381A072740E2EA008BB35D /* UIColor+THOUIColorCatrgory.m */; };
+		E4381A0B2740E30E008BB35D /* UIViewController+THOUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4381A0A2740E30E008BB35D /* UIViewController+THOUIViewController.m */; };
+		E4381A0E2740E377008BB35D /* UIBezierPath+THOUIBezierPathCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = E4381A0D2740E377008BB35D /* UIBezierPath+THOUIBezierPathCategory.m */; };
+		E4381A112740E3B7008BB35D /* UIButton+THOUIButtonCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = E4381A102740E3B7008BB35D /* UIButton+THOUIButtonCategory.m */; };
+		E4381A142740E3D3008BB35D /* UITableView+THOUITableView.m in Sources */ = {isa = PBXBuildFile; fileRef = E4381A132740E3D3008BB35D /* UITableView+THOUITableView.m */; };
+		E4381A182740E69C008BB35D /* THOPublicComponentsRoutingHopManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E4381A172740E69C008BB35D /* THOPublicComponentsRoutingHopManager.m */; };
+		E4381A1A2740F159008BB35D /* THOPublicComponentsHostExtension.plist in Resources */ = {isa = PBXBuildFile; fileRef = E4381A192740F159008BB35D /* THOPublicComponentsHostExtension.plist */; };
+		E4381A1C27410252008BB35D /* THOIMHostExtension.plist in Resources */ = {isa = PBXBuildFile; fileRef = E4381A1B27410252008BB35D /* THOIMHostExtension.plist */; };
+		E4381A1E2741028C008BB35D /* THONewsHostExtension.plist in Resources */ = {isa = PBXBuildFile; fileRef = E4381A1D2741028C008BB35D /* THONewsHostExtension.plist */; };
+		E4381A20274102BF008BB35D /* THOQuoteHostExtension.plist in Resources */ = {isa = PBXBuildFile; fileRef = E4381A1F274102BF008BB35D /* THOQuoteHostExtension.plist */; };
+		E4381A22274102F0008BB35D /* THOMainHostExtension.plist in Resources */ = {isa = PBXBuildFile; fileRef = E4381A21274102F0008BB35D /* THOMainHostExtension.plist */; };
+		E4381A2627410CD8008BB35D /* THOMineMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4381A2527410CD8008BB35D /* THOMineMainViewController.m */; };
+		F0AB115922F2FDD3670DFB5F /* libPods-THOmasProject-THOmasProjectUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 16484B68603FE279B5E44F4C /* libPods-THOmasProject-THOmasProjectUITests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E43819D52740D796008BB35D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E43819B12740D794008BB35D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E43819B82740D794008BB35D;
+			remoteInfo = THOmasProject;
+		};
+		E43819DF2740D796008BB35D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E43819B12740D794008BB35D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E43819B82740D794008BB35D;
+			remoteInfo = THOmasProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		16484B68603FE279B5E44F4C /* libPods-THOmasProject-THOmasProjectUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-THOmasProject-THOmasProjectUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		362CA725581948C2E9E7B932 /* libPods-THOmasProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-THOmasProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		540AF5D958A3050CD0F98155 /* Pods-THOmasProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-THOmasProject.release.xcconfig"; path = "Target Support Files/Pods-THOmasProject/Pods-THOmasProject.release.xcconfig"; sourceTree = "<group>"; };
+		A12DD8F4F58A71F518749744 /* Pods-THOmasProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-THOmasProject.debug.xcconfig"; path = "Target Support Files/Pods-THOmasProject/Pods-THOmasProject.debug.xcconfig"; sourceTree = "<group>"; };
+		A2E109F5DB1D83FA1540FE1A /* libPods-THOmasProjectTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-THOmasProjectTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE0AA634204B0F0367BC876E /* Pods-THOmasProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-THOmasProjectTests.release.xcconfig"; path = "Target Support Files/Pods-THOmasProjectTests/Pods-THOmasProjectTests.release.xcconfig"; sourceTree = "<group>"; };
+		B4A4A2BC98FFC3A7C3B4E3F1 /* Pods-THOmasProject-THOmasProjectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-THOmasProject-THOmasProjectUITests.debug.xcconfig"; path = "Target Support Files/Pods-THOmasProject-THOmasProjectUITests/Pods-THOmasProject-THOmasProjectUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C6B6915D5CC05C9B646D0B5C /* Pods-THOmasProject-THOmasProjectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-THOmasProject-THOmasProjectUITests.release.xcconfig"; path = "Target Support Files/Pods-THOmasProject-THOmasProjectUITests/Pods-THOmasProject-THOmasProjectUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E434054627413D9A00B7E9A6 /* THOBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = THOBaseViewController.h; sourceTree = "<group>"; };
+		E434054727413D9A00B7E9A6 /* THOBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = THOBaseViewController.m; sourceTree = "<group>"; };
+		E434054C27414EE700B7E9A6 /* THOCommonMacroDefinition.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = THOCommonMacroDefinition.pch; sourceTree = "<group>"; };
+		E43819B92740D794008BB35D /* THOmasProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = THOmasProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E43819BC2740D794008BB35D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E43819BD2740D794008BB35D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E43819C22740D794008BB35D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E43819C32740D794008BB35D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E43819C82740D795008BB35D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E43819CB2740D795008BB35D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E43819CD2740D795008BB35D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E43819CE2740D795008BB35D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E43819D42740D796008BB35D /* THOmasProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = THOmasProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E43819D82740D796008BB35D /* THOmasProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = THOmasProjectTests.m; sourceTree = "<group>"; };
+		E43819DE2740D796008BB35D /* THOmasProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = THOmasProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E43819E22740D796008BB35D /* THOmasProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = THOmasProjectUITests.m; sourceTree = "<group>"; };
+		E43819E42740D796008BB35D /* THOmasProjectUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = THOmasProjectUITestsLaunchTests.m; sourceTree = "<group>"; };
+		E43819F12740D90B008BB35D /* THOMainViewControlerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = THOMainViewControlerViewController.h; sourceTree = "<group>"; };
+		E43819F22740D90B008BB35D /* THOMainViewControlerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = THOMainViewControlerViewController.m; sourceTree = "<group>"; };
+		E43819FA2740DC06008BB35D /* THOQuoteMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = THOQuoteMainViewController.h; sourceTree = "<group>"; };
+		E43819FB2740DC06008BB35D /* THOQuoteMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = THOQuoteMainViewController.m; sourceTree = "<group>"; };
+		E43819FD2740DC29008BB35D /* THONewsMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = THONewsMainViewController.h; sourceTree = "<group>"; };
+		E43819FE2740DC29008BB35D /* THONewsMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = THONewsMainViewController.m; sourceTree = "<group>"; };
+		E4381A002740DC40008BB35D /* THOIMMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = THOIMMainViewController.h; sourceTree = "<group>"; };
+		E4381A012740DC40008BB35D /* THOIMMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = THOIMMainViewController.m; sourceTree = "<group>"; };
+		E4381A032740E2BE008BB35D /* UIView+THOUIViewCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+THOUIViewCategory.h"; sourceTree = "<group>"; };
+		E4381A042740E2BE008BB35D /* UIView+THOUIViewCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+THOUIViewCategory.m"; sourceTree = "<group>"; };
+		E4381A062740E2EA008BB35D /* UIColor+THOUIColorCatrgory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+THOUIColorCatrgory.h"; sourceTree = "<group>"; };
+		E4381A072740E2EA008BB35D /* UIColor+THOUIColorCatrgory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+THOUIColorCatrgory.m"; sourceTree = "<group>"; };
+		E4381A092740E30E008BB35D /* UIViewController+THOUIViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+THOUIViewController.h"; sourceTree = "<group>"; };
+		E4381A0A2740E30E008BB35D /* UIViewController+THOUIViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+THOUIViewController.m"; sourceTree = "<group>"; };
+		E4381A0C2740E377008BB35D /* UIBezierPath+THOUIBezierPathCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIBezierPath+THOUIBezierPathCategory.h"; sourceTree = "<group>"; };
+		E4381A0D2740E377008BB35D /* UIBezierPath+THOUIBezierPathCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIBezierPath+THOUIBezierPathCategory.m"; sourceTree = "<group>"; };
+		E4381A0F2740E3B7008BB35D /* UIButton+THOUIButtonCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+THOUIButtonCategory.h"; sourceTree = "<group>"; };
+		E4381A102740E3B7008BB35D /* UIButton+THOUIButtonCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+THOUIButtonCategory.m"; sourceTree = "<group>"; };
+		E4381A122740E3D3008BB35D /* UITableView+THOUITableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITableView+THOUITableView.h"; sourceTree = "<group>"; };
+		E4381A132740E3D3008BB35D /* UITableView+THOUITableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITableView+THOUITableView.m"; sourceTree = "<group>"; };
+		E4381A162740E69C008BB35D /* THOPublicComponentsRoutingHopManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = THOPublicComponentsRoutingHopManager.h; sourceTree = "<group>"; };
+		E4381A172740E69C008BB35D /* THOPublicComponentsRoutingHopManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = THOPublicComponentsRoutingHopManager.m; sourceTree = "<group>"; };
+		E4381A192740F159008BB35D /* THOPublicComponentsHostExtension.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = THOPublicComponentsHostExtension.plist; sourceTree = "<group>"; };
+		E4381A1B27410252008BB35D /* THOIMHostExtension.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = THOIMHostExtension.plist; sourceTree = "<group>"; };
+		E4381A1D2741028C008BB35D /* THONewsHostExtension.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = THONewsHostExtension.plist; sourceTree = "<group>"; };
+		E4381A1F274102BF008BB35D /* THOQuoteHostExtension.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = THOQuoteHostExtension.plist; sourceTree = "<group>"; };
+		E4381A21274102F0008BB35D /* THOMainHostExtension.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = THOMainHostExtension.plist; sourceTree = "<group>"; };
+		E4381A2427410CD8008BB35D /* THOMineMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = THOMineMainViewController.h; sourceTree = "<group>"; };
+		E4381A2527410CD8008BB35D /* THOMineMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = THOMineMainViewController.m; sourceTree = "<group>"; };
+		E6892FA70AC28187C3A5D184 /* Pods-THOmasProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-THOmasProjectTests.debug.xcconfig"; path = "Target Support Files/Pods-THOmasProjectTests/Pods-THOmasProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E43819B62740D794008BB35D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				733DB3EF206C8DEBA1041303 /* libPods-THOmasProject.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E43819D12740D796008BB35D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40390753437C1991C00A2E51 /* libPods-THOmasProjectTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E43819DB2740D796008BB35D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0AB115922F2FDD3670DFB5F /* libPods-THOmasProject-THOmasProjectUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8996E92D74DB7D12F617A92C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A12DD8F4F58A71F518749744 /* Pods-THOmasProject.debug.xcconfig */,
+				540AF5D958A3050CD0F98155 /* Pods-THOmasProject.release.xcconfig */,
+				B4A4A2BC98FFC3A7C3B4E3F1 /* Pods-THOmasProject-THOmasProjectUITests.debug.xcconfig */,
+				C6B6915D5CC05C9B646D0B5C /* Pods-THOmasProject-THOmasProjectUITests.release.xcconfig */,
+				E6892FA70AC28187C3A5D184 /* Pods-THOmasProjectTests.debug.xcconfig */,
+				AE0AA634204B0F0367BC876E /* Pods-THOmasProjectTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DCA5B7864D77A0D8E148B3BA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				362CA725581948C2E9E7B932 /* libPods-THOmasProject.a */,
+				16484B68603FE279B5E44F4C /* libPods-THOmasProject-THOmasProjectUITests.a */,
+				A2E109F5DB1D83FA1540FE1A /* libPods-THOmasProjectTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E434054527413D4100B7E9A6 /* THOBaseUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				E434054627413D9A00B7E9A6 /* THOBaseViewController.h */,
+				E434054727413D9A00B7E9A6 /* THOBaseViewController.m */,
+			);
+			path = THOBaseUIKit;
+			sourceTree = "<group>";
+		};
+		E43819B02740D794008BB35D = {
+			isa = PBXGroup;
+			children = (
+				E43819BB2740D794008BB35D /* THOmasProject */,
+				E43819D72740D796008BB35D /* THOmasProjectTests */,
+				E43819E12740D796008BB35D /* THOmasProjectUITests */,
+				E43819BA2740D794008BB35D /* Products */,
+				8996E92D74DB7D12F617A92C /* Pods */,
+				DCA5B7864D77A0D8E148B3BA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E43819BA2740D794008BB35D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E43819B92740D794008BB35D /* THOmasProject.app */,
+				E43819D42740D796008BB35D /* THOmasProjectTests.xctest */,
+				E43819DE2740D796008BB35D /* THOmasProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E43819BB2740D794008BB35D /* THOmasProject */ = {
+			isa = PBXGroup;
+			children = (
+				E434054527413D4100B7E9A6 /* THOBaseUIKit */,
+				E43819F12740D90B008BB35D /* THOMainViewControlerViewController.h */,
+				E43819F22740D90B008BB35D /* THOMainViewControlerViewController.m */,
+				E4381A21274102F0008BB35D /* THOMainHostExtension.plist */,
+				E4381A2327410CAC008BB35D /* THOMine */,
+				E43819F92740DBCC008BB35D /* THOIM */,
+				E43819F82740DBC0008BB35D /* THONews */,
+				E43819F72740DBA4008BB35D /* THOQuote */,
+				E43819F62740DACE008BB35D /* THOPublicComponents */,
+				E43819F52740DA9D008BB35D /* THOUIWithCategrory */,
+				E43819F42740DA82008BB35D /* THOSupporting */,
+				E43819CD2740D795008BB35D /* Info.plist */,
+			);
+			path = THOmasProject;
+			sourceTree = "<group>";
+		};
+		E43819D72740D796008BB35D /* THOmasProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				E43819D82740D796008BB35D /* THOmasProjectTests.m */,
+			);
+			path = THOmasProjectTests;
+			sourceTree = "<group>";
+		};
+		E43819E12740D796008BB35D /* THOmasProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E43819E22740D796008BB35D /* THOmasProjectUITests.m */,
+				E43819E42740D796008BB35D /* THOmasProjectUITestsLaunchTests.m */,
+			);
+			path = THOmasProjectUITests;
+			sourceTree = "<group>";
+		};
+		E43819F42740DA82008BB35D /* THOSupporting */ = {
+			isa = PBXGroup;
+			children = (
+				E43819CE2740D795008BB35D /* main.m */,
+				E43819C82740D795008BB35D /* Assets.xcassets */,
+				E43819CA2740D795008BB35D /* LaunchScreen.storyboard */,
+				E43819BC2740D794008BB35D /* AppDelegate.h */,
+				E43819BD2740D794008BB35D /* AppDelegate.m */,
+				E43819C22740D794008BB35D /* ViewController.h */,
+				E43819C32740D794008BB35D /* ViewController.m */,
+				E434054C27414EE700B7E9A6 /* THOCommonMacroDefinition.pch */,
+			);
+			path = THOSupporting;
+			sourceTree = "<group>";
+		};
+		E43819F52740DA9D008BB35D /* THOUIWithCategrory */ = {
+			isa = PBXGroup;
+			children = (
+				E4381A032740E2BE008BB35D /* UIView+THOUIViewCategory.h */,
+				E4381A042740E2BE008BB35D /* UIView+THOUIViewCategory.m */,
+				E4381A062740E2EA008BB35D /* UIColor+THOUIColorCatrgory.h */,
+				E4381A072740E2EA008BB35D /* UIColor+THOUIColorCatrgory.m */,
+				E4381A092740E30E008BB35D /* UIViewController+THOUIViewController.h */,
+				E4381A0A2740E30E008BB35D /* UIViewController+THOUIViewController.m */,
+				E4381A0C2740E377008BB35D /* UIBezierPath+THOUIBezierPathCategory.h */,
+				E4381A0D2740E377008BB35D /* UIBezierPath+THOUIBezierPathCategory.m */,
+				E4381A0F2740E3B7008BB35D /* UIButton+THOUIButtonCategory.h */,
+				E4381A102740E3B7008BB35D /* UIButton+THOUIButtonCategory.m */,
+				E4381A122740E3D3008BB35D /* UITableView+THOUITableView.h */,
+				E4381A132740E3D3008BB35D /* UITableView+THOUITableView.m */,
+			);
+			path = THOUIWithCategrory;
+			sourceTree = "<group>";
+		};
+		E43819F62740DACE008BB35D /* THOPublicComponents */ = {
+			isa = PBXGroup;
+			children = (
+				E4381A192740F159008BB35D /* THOPublicComponentsHostExtension.plist */,
+				E4381A152740E620008BB35D /* THORoutingHop */,
+			);
+			path = THOPublicComponents;
+			sourceTree = "<group>";
+		};
+		E43819F72740DBA4008BB35D /* THOQuote */ = {
+			isa = PBXGroup;
+			children = (
+				E43819FA2740DC06008BB35D /* THOQuoteMainViewController.h */,
+				E43819FB2740DC06008BB35D /* THOQuoteMainViewController.m */,
+				E4381A1F274102BF008BB35D /* THOQuoteHostExtension.plist */,
+			);
+			path = THOQuote;
+			sourceTree = "<group>";
+		};
+		E43819F82740DBC0008BB35D /* THONews */ = {
+			isa = PBXGroup;
+			children = (
+				E43819FD2740DC29008BB35D /* THONewsMainViewController.h */,
+				E43819FE2740DC29008BB35D /* THONewsMainViewController.m */,
+				E4381A1D2741028C008BB35D /* THONewsHostExtension.plist */,
+			);
+			path = THONews;
+			sourceTree = "<group>";
+		};
+		E43819F92740DBCC008BB35D /* THOIM */ = {
+			isa = PBXGroup;
+			children = (
+				E4381A002740DC40008BB35D /* THOIMMainViewController.h */,
+				E4381A012740DC40008BB35D /* THOIMMainViewController.m */,
+				E4381A1B27410252008BB35D /* THOIMHostExtension.plist */,
+			);
+			path = THOIM;
+			sourceTree = "<group>";
+		};
+		E4381A152740E620008BB35D /* THORoutingHop */ = {
+			isa = PBXGroup;
+			children = (
+				E4381A162740E69C008BB35D /* THOPublicComponentsRoutingHopManager.h */,
+				E4381A172740E69C008BB35D /* THOPublicComponentsRoutingHopManager.m */,
+			);
+			path = THORoutingHop;
+			sourceTree = "<group>";
+		};
+		E4381A2327410CAC008BB35D /* THOMine */ = {
+			isa = PBXGroup;
+			children = (
+				E4381A2427410CD8008BB35D /* THOMineMainViewController.h */,
+				E4381A2527410CD8008BB35D /* THOMineMainViewController.m */,
+			);
+			path = THOMine;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E43819B82740D794008BB35D /* THOmasProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E43819E82740D796008BB35D /* Build configuration list for PBXNativeTarget "THOmasProject" */;
+			buildPhases = (
+				873721C643C0658B0D54C7BA /* [CP] Check Pods Manifest.lock */,
+				E43819B52740D794008BB35D /* Sources */,
+				E43819B62740D794008BB35D /* Frameworks */,
+				E43819B72740D794008BB35D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = THOmasProject;
+			productName = THOmasProject;
+			productReference = E43819B92740D794008BB35D /* THOmasProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E43819D32740D796008BB35D /* THOmasProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E43819EB2740D796008BB35D /* Build configuration list for PBXNativeTarget "THOmasProjectTests" */;
+			buildPhases = (
+				1FA0946B4411CD80B5305B4A /* [CP] Check Pods Manifest.lock */,
+				E43819D02740D796008BB35D /* Sources */,
+				E43819D12740D796008BB35D /* Frameworks */,
+				E43819D22740D796008BB35D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E43819D62740D796008BB35D /* PBXTargetDependency */,
+			);
+			name = THOmasProjectTests;
+			productName = THOmasProjectTests;
+			productReference = E43819D42740D796008BB35D /* THOmasProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E43819DD2740D796008BB35D /* THOmasProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E43819EE2740D796008BB35D /* Build configuration list for PBXNativeTarget "THOmasProjectUITests" */;
+			buildPhases = (
+				022C5DDD9EA87C94A5206D68 /* [CP] Check Pods Manifest.lock */,
+				E43819DA2740D796008BB35D /* Sources */,
+				E43819DB2740D796008BB35D /* Frameworks */,
+				E43819DC2740D796008BB35D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E43819E02740D796008BB35D /* PBXTargetDependency */,
+			);
+			name = THOmasProjectUITests;
+			productName = THOmasProjectUITests;
+			productReference = E43819DE2740D796008BB35D /* THOmasProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E43819B12740D794008BB35D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				CLASSPREFIX = THO;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					E43819B82740D794008BB35D = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					E43819D32740D796008BB35D = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = E43819B82740D794008BB35D;
+					};
+					E43819DD2740D796008BB35D = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = E43819B82740D794008BB35D;
+					};
+				};
+			};
+			buildConfigurationList = E43819B42740D794008BB35D /* Build configuration list for PBXProject "THOmasProject" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E43819B02740D794008BB35D;
+			productRefGroup = E43819BA2740D794008BB35D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E43819B82740D794008BB35D /* THOmasProject */,
+				E43819D32740D796008BB35D /* THOmasProjectTests */,
+				E43819DD2740D796008BB35D /* THOmasProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E43819B72740D794008BB35D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E43819CC2740D795008BB35D /* LaunchScreen.storyboard in Resources */,
+				E4381A1A2740F159008BB35D /* THOPublicComponentsHostExtension.plist in Resources */,
+				E4381A22274102F0008BB35D /* THOMainHostExtension.plist in Resources */,
+				E4381A1C27410252008BB35D /* THOIMHostExtension.plist in Resources */,
+				E43819C92740D795008BB35D /* Assets.xcassets in Resources */,
+				E4381A1E2741028C008BB35D /* THONewsHostExtension.plist in Resources */,
+				E4381A20274102BF008BB35D /* THOQuoteHostExtension.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E43819D22740D796008BB35D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E43819DC2740D796008BB35D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		022C5DDD9EA87C94A5206D68 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-THOmasProject-THOmasProjectUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1FA0946B4411CD80B5305B4A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-THOmasProjectTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		873721C643C0658B0D54C7BA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-THOmasProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E43819B52740D794008BB35D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4381A022740DC40008BB35D /* THOIMMainViewController.m in Sources */,
+				E43819FC2740DC06008BB35D /* THOQuoteMainViewController.m in Sources */,
+				E4381A2627410CD8008BB35D /* THOMineMainViewController.m in Sources */,
+				E43819C42740D794008BB35D /* ViewController.m in Sources */,
+				E4381A052740E2BE008BB35D /* UIView+THOUIViewCategory.m in Sources */,
+				E43819F32740D90B008BB35D /* THOMainViewControlerViewController.m in Sources */,
+				E4381A112740E3B7008BB35D /* UIButton+THOUIButtonCategory.m in Sources */,
+				E434054827413D9A00B7E9A6 /* THOBaseViewController.m in Sources */,
+				E4381A142740E3D3008BB35D /* UITableView+THOUITableView.m in Sources */,
+				E4381A0B2740E30E008BB35D /* UIViewController+THOUIViewController.m in Sources */,
+				E43819BE2740D794008BB35D /* AppDelegate.m in Sources */,
+				E43819FF2740DC29008BB35D /* THONewsMainViewController.m in Sources */,
+				E4381A082740E2EA008BB35D /* UIColor+THOUIColorCatrgory.m in Sources */,
+				E4381A182740E69C008BB35D /* THOPublicComponentsRoutingHopManager.m in Sources */,
+				E43819CF2740D795008BB35D /* main.m in Sources */,
+				E4381A0E2740E377008BB35D /* UIBezierPath+THOUIBezierPathCategory.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E43819D02740D796008BB35D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E43819D92740D796008BB35D /* THOmasProjectTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E43819DA2740D796008BB35D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E43819E52740D796008BB35D /* THOmasProjectUITestsLaunchTests.m in Sources */,
+				E43819E32740D796008BB35D /* THOmasProjectUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E43819D62740D796008BB35D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E43819B82740D794008BB35D /* THOmasProject */;
+			targetProxy = E43819D52740D796008BB35D /* PBXContainerItemProxy */;
+		};
+		E43819E02740D796008BB35D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E43819B82740D794008BB35D /* THOmasProject */;
+			targetProxy = E43819DF2740D796008BB35D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E43819CA2740D795008BB35D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E43819CB2740D795008BB35D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E43819E62740D796008BB35D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E43819E72740D796008BB35D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E43819E92740D796008BB35D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A12DD8F4F58A71F518749744 /* Pods-THOmasProject.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7SGP6982SC;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/THOmasProject/THOSupporting/THOCommonMacroDefinition.pch";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = THOmasProject/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Thomas.THOmasProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E43819EA2740D796008BB35D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 540AF5D958A3050CD0F98155 /* Pods-THOmasProject.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7SGP6982SC;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/THOmasProject/THOSupporting/THOCommonMacroDefinition.pch";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = THOmasProject/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Thomas.THOmasProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E43819EC2740D796008BB35D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6892FA70AC28187C3A5D184 /* Pods-THOmasProjectTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7SGP6982SC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Thomas.THOmasProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/THOmasProject.app/THOmasProject";
+			};
+			name = Debug;
+		};
+		E43819ED2740D796008BB35D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE0AA634204B0F0367BC876E /* Pods-THOmasProjectTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7SGP6982SC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Thomas.THOmasProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/THOmasProject.app/THOmasProject";
+			};
+			name = Release;
+		};
+		E43819EF2740D796008BB35D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4A4A2BC98FFC3A7C3B4E3F1 /* Pods-THOmasProject-THOmasProjectUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7SGP6982SC;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Thomas.THOmasProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = THOmasProject;
+			};
+			name = Debug;
+		};
+		E43819F02740D796008BB35D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6B6915D5CC05C9B646D0B5C /* Pods-THOmasProject-THOmasProjectUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7SGP6982SC;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Thomas.THOmasProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = THOmasProject;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E43819B42740D794008BB35D /* Build configuration list for PBXProject "THOmasProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E43819E62740D796008BB35D /* Debug */,
+				E43819E72740D796008BB35D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E43819E82740D796008BB35D /* Build configuration list for PBXNativeTarget "THOmasProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E43819E92740D796008BB35D /* Debug */,
+				E43819EA2740D796008BB35D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E43819EB2740D796008BB35D /* Build configuration list for PBXNativeTarget "THOmasProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E43819EC2740D796008BB35D /* Debug */,
+				E43819ED2740D796008BB35D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E43819EE2740D796008BB35D /* Build configuration list for PBXNativeTarget "THOmasProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E43819EF2740D796008BB35D /* Debug */,
+				E43819F02740D796008BB35D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E43819B12740D794008BB35D /* Project object */;
+}
